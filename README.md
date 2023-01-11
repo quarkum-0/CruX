@@ -130,7 +130,6 @@ def hangman():
                   "          =======          \n")
            print("WRONG GUESS. " + str(limit - count) + " GUESSES REMAINING\n")
    
-
         elif count == 5:
             time.sleep(1)
             print("           +-----+         \n"
@@ -155,7 +154,6 @@ def hangman():
                   "          =======          \n")
            print("WRONG GUESS. LAST GUESS BEFORE DEATH\n")
     
-
         elif count == 7:
             time.sleep(1)
             print("           +-----+         \n"
@@ -177,8 +175,6 @@ def hangman():
     elif count != limit:
         hangman()
 
-
 body()
-
 
 hangman()
