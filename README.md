@@ -12,9 +12,9 @@ time.sleep(2)
 print("STARTING THE CHALLENGE... \n")
 time.sleep(1)
 print("BEST OF LUCK... \n")
-time.sleep(4)
-print("YOU ARE GONNA NEED IT \n")
 time.sleep(2)
+print("YOU ARE GONNA NEED IT \n")
+time.sleep(1)
 
 #Function for defining of parameters.
 def body():
@@ -47,7 +47,7 @@ def play_loop():
     while play_game not in ["y","n"]:
         play_game = input("WOULD YOU DARE TO PLAY AGAIN? Y = YES, N = NO \n")
     if play_game == "y":
-        body()
+      body()
     elif play_game == "n":
         print("GOT SCARED?")
         exit()
