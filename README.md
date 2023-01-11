@@ -61,7 +61,7 @@ def hangman():
     global already_guessed
     global play_game
     global original_word
-    guess = input("THIS IS THE WORD: " + display + "\nENTER YOUR LETTER: ")
+    guess = input("THIS IS THE WORD OF " + str(length) + " LETTERS: " + display + "\nENTER YOUR LETTER: ")
     guess = guess.strip()
     guess=guess.lower()
     if len(guess.strip()) == 0 or len(guess.strip()) >= 2 or guess <="9":
